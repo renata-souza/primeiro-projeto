@@ -1,0 +1,395 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    width: 100%;
+    height: 42px;
+    background-color: rgba(28, 28, 28, 0.75);
+    backdrop-filter: blur(15px) saturate(2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1105px;
+    margin: 10px;
+}
+
+.social-media {
+    font-size: 12px;
+    color: #FFF;
+    align-self: center;
+    margin: 10px;
+}
+
+.headline {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    padding-top: 22px;
+}
+
+.logo {
+    display: flex;
+    padding-top: 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 25px 17px 25px 17px;
+    font-size: 13px;
+}
+
+nav a:hover {
+    padding-bottom: 0;
+    border-bottom: 2px solid white;
+}
+
+#banner {
+    background-image: url('imagens/banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 555px;
+}
+
+.title {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.banner-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.banner-title h1 {
+    font-size: 48px;
+}
+
+.banner-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 25px;
+}
+
+.banner-links a {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding: 14px 42px;
+    margin-right: 25px;
+
+}
+
+.banner-links a:hover {
+    color: white;
+    background-color: #262626;
+    border: 1px solid #262626;
+}
+
+.div-gap {
+    width: 100%;
+    height: 100px;
+}
+
+.link-pages {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.link-pages .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.widget {
+    background-color: #ffffff;
+    display: flex;
+    width: 330px;
+    height: 470px;
+    box-shadow: 0 0 20px rgba(235, 235, 235, 0.747);
+    margin: 10px;
+}
+
+.div-gap-gray {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100px;
+}
+
+
+.blog {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 440px;
+}
+
+.blog .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-text {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    margin: 10px;
+}
+
+.blog-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #3b3b3b;
+}
+
+.blog-text p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 55px;
+    color: #969696;
+}
+
+
+.button a{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    border: 1px solid #262626;
+    background-color: #262626;
+    color: white;
+    font-size: 12px;
+    margin-right: 25px;
+    text-decoration: none;
+    transition: border-radius 0.1s linear;
+    width: 130px;
+    height: 43px;
+    padding: 14px 42px;
+}
+
+.button a:hover {
+    border-radius: 27px ;
+}
+
+.blog-image {
+    width: 545;
+    height: 445;
+    margin: 10px;
+}
+
+.div-gap-dark {
+    background-color: #262626;
+    width: 100%;
+    height: 100px;
+}
+
+.ecommerce {
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+
+}
+
+.ecommerce h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.ecommerce p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 55px;
+    color: #cbcbcb;
+}
+
+
+.ecommerce .button a{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: white;
+    color: #262626;
+    font-size: 12px;
+    margin-right: 25px;
+    text-decoration: none;
+    transition: border-radius 0.1s linear;
+    width: 130px;
+    height: 43px;
+    padding: 14px 42px;
+}
+
+.ecommerce .button a:hover {
+    border-radius: 27px ;
+}
+
+.portfolio {
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.portfolio .container {
+    flex-direction: column;
+}
+
+
+.portfolio-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.portfolio-title {
+    display: flex;
+    align-self: center;
+}
+
+.portfolio-description {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-gap {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #f7f7f7;
+}
+
+.portfolio-img {
+    display: flex;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.portfolio .button {
+    align-self: center;
+}
+
+.portfolio h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    color: #3b3b3b;
+}
+
+.portfolio p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #616161;
+    margin-bottom: 0px;
+}
+
+footer, 
+footer .div-gap-dark, 
+.subscribe, 
+.subscribe .container{
+    background-color: #303030;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.subscribe .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    color: white;
+}
+
+.subscription {
+    flex-direction: row;
+    justify-content: center;
+    width: 540px;
+    height: 45px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    border: none;
+    border-radius: 0px;
+    width: 450px;
+    height: 45px;
+    margin: 0px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #262626;
+    color: #646464;
+}
+
+form button {
+    border: none;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 12px;
+    padding: 12px 20px;
+}
+
+.subscribe .container small {
+    align-self: center;
+    margin-top: 8px;
+    color: white;
+}
